@@ -50,8 +50,8 @@ word = "food"
 
 print(f"10 similar words to '{word}':")
 for w, score in model.wv.most_similar(positive=[word], topn=10):
-    print(f"  {w} ({score:.2f})")
+    print(f"{w} ({score:.2f})")
 
 print(f"\n10 opposite words to '{word}':")
 for w, score in model.wv.most_similar(negative=[word], topn=10):
-    print(f"  {w} ({score:.2f})")
+    print(f"{w} ({score:.2f})")
