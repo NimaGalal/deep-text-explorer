@@ -32,3 +32,26 @@ for chunk in reader:
     # break 
 
 print(all_processed_tokens[:100]) # Print first 20 tokens
+
+
+# STEP 1 : Training the model : 
+
+from gensim.models import FastText
+
+#Making sure that the tokens are coverted to sentences with len of 10
+tokenized = [all_processed_tokens[i:i+10] for i in range(0, len(all_processed_tokens), 10)]
+
+model = FastText(sentences=tokenized, vector_size=100, window=5, min_count=2, epochs=10)
+
+model.save("my_fasttext_model.model")
+model = FastText.load("my_fasttext_model.model")
+
+word = "food"
+
+print(f"10 similar words to '{word}':")
+for w, score in model.wv.most_similar(positive=[word], topn=10):
+    print(f"  {w} ({score:.2f})")
+
+print(f"\n10 opposite words to '{word}':")
+for w, score in model.wv.most_similar(negative=[word], topn=10):
+    print(f"  {w} ({score:.2f})")
