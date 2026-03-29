@@ -1,0 +1,207 @@
+PS D:\uni\NLP\Assignment 3> python -u "d:\uni\NLP\Assignment 3\Assignment_3.py"
+[nltk_data] Downloading package stopwords to C:\Users\mariam
+[nltk_data]     tantawy\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+['avengers', 'time', 'ladies', 'lots', 'good', 'deserts', 'tasty', 'cuban', 'sandwiches', 'open', 'even', 'think', 'isnt', 'decent', 'fried', 'chicken', 'appetizers', 'platter', 'special', 'lunch', 'chili', 'cup', 'single', 'cheeseburger', 'onion', 'pickle', 'relish', 'vanilla', 'cocacolaso', 'far', 'saturday', 'dec', '7th', '2013', 'ride', 'patcos', 'silver', 'sleigh', 'w', 'santa', 'elves', 'decorated', 'train', 'center', 'city', 'trains', 'leave', 'lindenwold', '10am', '1115am', '1230pm', 'make', 'stops', 'great', 'kids', 'probably', 'best', 'place', 'cool', 'springs', 'area', 'watch', 'game', 'eat', 'tacos', 'starbucks', 'substitute', 'boring', 'downtown', 'tampa', 'ugh', 'never', 'order', 'tortilla', 'soup', 'good', 'definitely', 'coming', 'back', 'hotlight', 'must', 'stop', 'lets', 'go', 'yankees', 'basically', 'food', 'rallys', '5', 'dont', 'go', 'dinner', 'close', '6', 'really', 'yvonne', 'l', 'negative', 'stars', 'restaurant']
+10 similar words to 'food':
+foodz (0.91)
+food1 (0.91)
+foodwe (0.90)
+food！ (0.90)
+food5 (0.90)
+foodthe (0.89)
+food‼ (0.89)
+foodgood (0.89)
+foodd (0.89)
+foodmeh (0.89)
+
+10 opposite words to 'food':
+c14 (0.49)
+7065 (0.46)
+jl (0.44)
+880 (0.44)
+41316 (0.44)
+hbc (0.43)
+161 (0.43)
+83116 (0.43)
+603 (0.42)
+vsec (0.42)
+Loading pretrained word vectors... please wait!
+[==================================================] 100.0% 128.1/128.1MB downloaded
+=============================================
+  RESULTS FOR INPUT WORD: 'food'
+=============================================
+
+[+] 10 Similar words to 'food':
+ 1. befuddled       | Score: 0.4836
+ 2. vanity          | Score: 0.4692
+ 3. olajuwon        | Score: 0.4686
+ 4. roadshow        | Score: 0.4682
+ 5. foot            | Score: 0.4632
+ 6. non-native      | Score: 0.4578
+ 7. harpercollins   | Score: 0.4574
+ 8. digger          | Score: 0.4546
+ 9. serves          | Score: 0.4470
+ 10. chopin          | Score: 0.4464
+
+[-] 10 Opposite words to 'food':
+ 1. 604             | Score: 0.4086
+ 2. cppcc           | Score: 0.3535
+ 3. djs             | Score: 0.3476
+ 4. 477             | Score: 0.3185
+ 5. 0.31            | Score: 0.3077
+ 6. a&m             | Score: 0.3072
+ 7. 830             | Score: 0.2934
+ 8. 36.3            | Score: 0.2850
+ 9. 33.3            | Score: 0.2826
+ 10. 9-0             | Score: 0.2768
+
+---------------------------------------------
+=============================================
+  RESULTS FOR INPUT WORD: 'service'
+=============================================
+
+[+] 10 Similar words to 'service':
+ 1. serviced        | Score: 0.7707
+ 2. services        | Score: 0.7683
+ 3. serviceman      | Score: 0.7227
+ 4. disservice      | Score: 0.7166
+ 5. serviceable     | Score: 0.7141
+ 6. servicemen      | Score: 0.6880
+ 7. full-service    | Score: 0.6586
+ 8. serve           | Score: 0.6573
+ 9. served          | Score: 0.6329
+ 10. server          | Score: 0.6282
+
+[-] 10 Opposite words to 'service':
+ 1. gunn            | Score: 0.3465
+ 2. 220             | Score: 0.3025
+ 3. wwe             | Score: 0.3013
+ 4. '30s            | Score: 0.2897
+ 5. 542             | Score: 0.2779
+ 6. ¼               | Score: 0.2767
+ 7. 604             | Score: 0.2746
+ 8. 7.3             | Score: 0.2744
+ 9. 3-0             | Score: 0.2716
+ 10. wfp             | Score: 0.2715
+
+---------------------------------------------
+=============================================
+  RESULTS FOR INPUT WORD: 'place'
+=============================================
+
+[+] 10 Similar words to 'place':
+ 1. places          | Score: 0.6599
+ 2. displace        | Score: 0.6195
+ 3. birthplace      | Score: 0.5851
+ 4. placer          | Score: 0.5845
+ 5. placements      | Score: 0.5765
+ 6. placenta        | Score: 0.5641
+ 7. commonplace     | Score: 0.5557
+ 8. solace          | Score: 0.5548
+ 9. marketplace     | Score: 0.5544
+ 10. placed          | Score: 0.5526
+
+[-] 10 Opposite words to 'place':
+ 1. 1066            | Score: 0.3155
+ 2. kauai           | Score: 0.3081
+ 3. 326             | Score: 0.3016
+ 4. yasukuni        | Score: 0.3004
+ 5. yoga            | Score: 0.2985
+ 6. 264             | Score: 0.2957
+ 7. 2.08            | Score: 0.2935
+ 8. peggy           | Score: 0.2931
+ 9. 68th            | Score: 0.2789
+ 10. janusz          | Score: 0.2772
+
+---------------------------------------------
+Updating model with Yelp data...
+Model updated successfully!
+
+=============================================
+  RESULTS FOR INPUT WORD: 'food'
+=============================================
+
+[+] 10 Similar words to 'food':
+ 1. foodfood        | Score: 0.9593
+ 2. food3           | Score: 0.9332
+ 3. food！i          | Score: 0.9304
+ 4. food，           | Score: 0.9280
+ 5. food1           | Score: 0.9270
+ 6. foodw           | Score: 0.9263
+ 7. foodz           | Score: 0.9258
+ 8. foodwe          | Score: 0.9239
+ 9. food！           | Score: 0.9217
+ 10. kfood           | Score: 0.9170
+
+[-] 10 Opposite words to 'food':
+ 1. 1.4             | Score: 0.4666
+ 2. 2.2             | Score: 0.4550
+ 3. 642             | Score: 0.4484
+ 4. 34.4            | Score: 0.4383
+ 5. lcdt            | Score: 0.4381
+ 6. 880             | Score: 0.4345
+ 7. rq              | Score: 0.4280
+ 8. .4              | Score: 0.4265
+ 9. 3.4             | Score: 0.4245
+ 10. 1639            | Score: 0.4202
+
+---------------------------------------------
+=============================================
+  RESULTS FOR INPUT WORD: 'service'
+=============================================
+
+[+] 10 Similar words to 'service':
+ 1. service0        | Score: 0.9665
+ 2. wservice        | Score: 0.9663
+ 3. cservice        | Score: 0.9656
+ 4. service！        | Score: 0.9653
+ 5. service！！       | Score: 0.9635
+ 6. service‼        | Score: 0.9631
+ 7. okservice       | Score: 0.9630
+ 8. serviceeh       | Score: 0.9625
+ 9. servicec        | Score: 0.9617
+ 10. service1        | Score: 0.9602
+
+[-] 10 Opposite words to 'service':
+ 1. hbc             | Score: 0.4037
+ 2. 65h             | Score: 0.3947
+ 3. 31.4            | Score: 0.3687
+ 4. 658             | Score: 0.3675
+ 5. 4w5             | Score: 0.3669
+ 6. 689             | Score: 0.3594
+ 7. ur              | Score: 0.3577
+ 8. €×              | Score: 0.3558
+ 9. 650lb           | Score: 0.3546
+ 10. 653             | Score: 0.3541
+
+---------------------------------------------
+=============================================
+  RESULTS FOR INPUT WORD: 'place'
+=============================================
+
+[+] 10 Similar words to 'place':
+ 1. place！          | Score: 0.9355
+ 2. placewhy        | Score: 0.9339
+ 3. place！！！        | Score: 0.9329
+ 4. placewtf        | Score: 0.9317
+ 5. place9          | Score: 0.9270
+ 6. placewe         | Score: 0.9222
+ 7. placei          | Score: 0.9222
+ 8. placebe         | Score: 0.9193
+ 9. placek          | Score: 0.9192
+ 10. place1990s      | Score: 0.9168
+
+[-] 10 Opposite words to 'place':
+ 1. 40oz            | Score: 0.4414
+ 2. 17x2            | Score: 0.4394
+ 3. 40lb            | Score: 0.4337
+ 4. 942             | Score: 0.4203
+ 5. 6m              | Score: 0.4193
+ 6. 132             | Score: 0.4116
+ 7. w               | Score: 0.4098
+ 8. -1              | Score: 0.4048
+ 9. 532             | Score: 0.4021
+ 10. 4061            | Score: 0.4002
+
+---------------------------------------------
